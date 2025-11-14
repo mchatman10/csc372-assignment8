@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  gap: 0.5rem;
+  justify-items: center;
+}
+
+.frame {
+  width: 130px;
+  height: 130px;
+  background: #0b1220;
+  border: 2px solid #243041;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.frame img {
+  width: 96px;
+  height: 96px;
+}
+
+.status {
+  color: var(--muted);
+}

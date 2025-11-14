@@ -1,1 +1,4 @@
-# csc372-assignment8
+INSTRUCTIONS: Under "Your Throw," click the image of the throw you'd like to pick, then wait for the computer to pick theirs. The results are printed at the bottom, as either you winning, the computer winning, or a tie. Click the reset button at the bottom left to reset the scoreboard back to 0.
+
+My implementation follows the suggested structure of App, PlayerThrow, ComputerThrow, ResultDisplay, and includes the extra credit options of the ScoreBoard, and ResetButton. React state and hooks are used, and event listeners. All 9 possible throw combos are accounted for. Everything works properly with npm install and npm run dev. Just like in the original RPS assignment, I added a background image for style. Everything is modularized, including the CSS components, and they had to be named with .module, otherwise the page won't load. Vite scaffolded the project.
+

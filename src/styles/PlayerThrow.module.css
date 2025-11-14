@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #0b1220;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 0.75rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card img {
+  width: 88px;
+  height: 88px;
+}
+
+.selected {
+  border-color: #22d3ee;
+}

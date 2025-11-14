@@ -1,0 +1,9 @@
+.resultBox {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.outcome {
+  margin: 0;
+  font-size: 1.3rem;
+}
